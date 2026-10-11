@@ -1,0 +1,18 @@
+00:00 +0: loading test/widget_test.dart
+00:00 +0: left to right intermediate total
+00:00 +1: 8 + 2 =
+00:00 +2: 8 - 12 =
+00:00 +3: 8 * 2 =
+00:00 +4: 9 / 2 =
+00:00 +5: 20 - 4 / 2 + 3 * 2 =
+00:00 +6: 9 + * 2 =
+00:00 +7: 2 + 3 = 4 + 1 =
+00:00 +8: 2 + 3 = =
+00:00 +9: digit after operator
+00:00 +10: incomplete equals preserves state and recovers
+00:00 +11: AC resets pending and completed state
+00:00 +12: division by zero recovery
+00:00 +13: format whole numbers
+00:00 +14: UI flow themes semantics narrow layout
+00:00 +15: large text landscape scrolls without overflow
+00:00 +16: All tests passed!
