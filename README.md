@@ -1,17 +1,35 @@
-# calculator_app
+# Setup and Build
 
-A new Flutter project.
+## Setup
 
-## Getting Started
+1. Install Git, Flutter with Dart 3.13.3 or later compatible with Dart 3.x, and Android Studio with the Android SDK.
+2. Check the development environment and accept the Android SDK licenses:
 
-This project is a starting point for a Flutter application.
+   ```sh
+   flutter doctor
+   flutter doctor --android-licenses
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+3. Clone the repository and install dependencies:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+   ```sh
+   git clone https://github.com/Prophet-20/Homework-Assignment-1-Calculator.git
+   cd Homework-Assignment-1-Calculator
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+
+Start an Android emulator or connect an Android device with USB debugging enabled, then run:
+
+```sh
+flutter run
+```
+
+## Build the APK
+
+```sh
+flutter build apk --release
+```
+
+The APK is saved to `build/app/outputs/flutter-apk/app-release.apk`.
